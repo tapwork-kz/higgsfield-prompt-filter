@@ -1,0 +1,11 @@
+name = "higgsfield-prompt-filter"
+main = "worker.js"
+compatibility_date = "2024-10-01"
+
+[vars]
+DEFAULT_MODEL = "Kling"
+DEFAULT_MODE = "PRO"
+
+# Secrets to be configured via wrangler secret put:
+# TELEGRAM_BOT_TOKEN
+# CLOUDFLARE_API_TOKEN
